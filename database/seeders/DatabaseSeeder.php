@@ -18,5 +18,19 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
+
+        // APPEL DU SEEDER DE LA TABLE ARTICLE:
+        // $this->call(ArticleSeeder::class);
+
+        // APPEL DU SEEDER DE LA TABLE CLIENT:
+        // $this->call(ClientSeeder::class);
+
+        // APPEL DU SEEDER DE LA TABLE DETTE:
+        // $this->call(DetteSeeder::class);
+
+        // APPEL DU SEEDER DE LA TABLE ARTICLE_DETTE:
+        $this->call(ArticleDetteSeeder::class);
+        // APPEL DU SEEDER DE LA TABLE USER2:
+
     }
 }
