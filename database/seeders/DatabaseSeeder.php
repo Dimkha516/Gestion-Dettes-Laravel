@@ -29,7 +29,7 @@ class DatabaseSeeder extends Seeder
         // $this->call(DetteSeeder::class);
 
         // APPEL DU SEEDER DE LA TABLE ARTICLE_DETTE:
-        $this->call(ArticleDetteSeeder::class);
+        // $this->call(ArticleDetteSeeder::class);
         // APPEL DU SEEDER DE LA TABLE USER2:
 
     }
